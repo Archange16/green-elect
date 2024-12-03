@@ -15,9 +15,9 @@ const ServicesThree = () => {
                         </div>
                     </div>
                     <div className="row gy-4 justify-content-center flex-wrap services__three-items">
-                        {servicesData?.slice(0, 3).map((data, id) => {
+                        {servicesData?.slice(0, 6).map((data, id) => {
 							const words = data.title.split(' ');
-							const firstAndSecondWord = words.slice(0, 2).join(' ');
+							const firstAndSecondWord = words.slice(0, 3).join(' ');
                             return (
                                 <div className="col-lg-4 col-md-6 item" key={id}>
                                     <div className="services__three-single-service">
@@ -27,7 +27,7 @@ const ServicesThree = () => {
                                         <div className="services__three-single-service-content">
                                             <h4>{firstAndSecondWord}</h4>
                                             <p>{data.des}</p>
-                                            <Link href={`/services/${data.id}`} className="btn-three">Read More<i className="fas fa-chevron-right"></i></Link>
+                                            <Link href={`/services/${data.id}`} className="btn-three">En savoir plus<i className="fas fa-chevron-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>

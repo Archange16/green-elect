@@ -4279,7 +4279,7 @@ Responsive Menu Css
 * Banner Three CSS
 ==========================================================================*/
 .banner__three-single-slide {
-  padding: 100px 0;
+  padding: 130px 0;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
@@ -4314,10 +4314,10 @@ Responsive Menu Css
   text-align: center;
 }
 .banner__three-content h2 {
-  font-size: 74px;
+  font-size: 70px;
   color: var(--text-white);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.00;
   margin-bottom: 25px;
 }
 .banner__three-content h2 .text-bordered {
@@ -4329,7 +4329,7 @@ Responsive Menu Css
   color: var(--text-white);
   text-transform: none;
   margin: auto;
-  margin-bottom: 42px;
+  margin-bottom: 20px;
   width: 61%;
 }
 .banner__three-content .btn-two:hover {
@@ -5604,6 +5604,7 @@ Responsive Menu Css
   color: var(--primary-color-1);
 }
 .services__three-single-service-content h4 {
+  color: var(--primary-color-1);
   font-size: 22px;
   margin-bottom: 20px;
 }
@@ -5611,7 +5612,7 @@ Responsive Menu Css
   color: var(--color-2);
   margin-bottom: 20px;
   text-transform: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 .services__three-single-service:hover {
   background-color: var(--bg-white);

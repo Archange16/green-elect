@@ -22,7 +22,7 @@ const BannerThree = () => {
             >
                 <SwiperSlide>
                     <div className="banner__three-single-slide" style={{backgroundImage: `url(${banner1.src})`}}>
-                        <div className="banner__three-bg-shape-overlay" style={{backgroundImage: `url(${shape.src})`}}></div>
+                        <div className="banner__three-bg-shape-overlay" ></div>
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-xl-10">
@@ -39,7 +39,7 @@ const BannerThree = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="banner__three-single-slide" style={{backgroundImage: `url(${banner2.src})`}}>
-                        <div className="banner__three-bg-shape-overlay" style={{backgroundImage: `url(${shape.src})`}}></div>
+                        <div className="banner__three-bg-shape-overlay" ></div>
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-xl-10">
@@ -56,7 +56,7 @@ const BannerThree = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="banner__three-single-slide" style={{backgroundImage: `url(${banner3.src})`}}>
-                        <div className="banner__three-bg-shape-overlay" style={{backgroundImage: `url(${shape.src})`}}></div>
+                        <div className="banner__three-bg-shape-overlay" ></div>
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-xl-10">

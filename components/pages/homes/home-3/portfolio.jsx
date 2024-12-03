@@ -8,8 +8,8 @@ const PortfolioThree = () => {
                 <div className="row justify-content-center text-center">
                     <div className="col-xl-6 col-lg-6">
                         <div className="portfolio__two-title">
-                            <span className="subtitle-one">Latest Portfolio</span>
-                            <h2>Business Growth to Digital <span className="highlighted-two">Portfolios</span></h2>
+                            <span className="subtitle-one">Nos Réalisations</span>
+                            <h2>Des Projets Concrets, Des Résultats <span className="highlighted-two">Durables</span></h2>
                         </div>
                     </div>
                 </div>
