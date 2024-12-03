@@ -7,10 +7,10 @@ const ServicesThree = () => {
             <div className="services__three section-padding">
                 <div className="container">
                     <div className="row justify-content-center">
-                        <div className="col-xl-6">
+                        <div className="col-xl-9">
                             <div className="services__three-title text-center">
-                                <span className="subtitle-one">Latest service</span>
-                                <h2>Optimized IT Services for Your <span className="highlighted-two">Business</span></h2>
+                                <span className="subtitle-one">Nos Services</span>
+                                <h2>Découvrez comment nos services optimisent vos opérations et<span className="highlighted-two">l'environnement.</span></h2>
                             </div>
                         </div>
                     </div>

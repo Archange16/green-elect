@@ -97,6 +97,8 @@ Contact Location Map
 * Google Fonts
 ==========================================================================*/
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
 /*==========================================================================
 * Common CSS
 ==========================================================================*/
@@ -457,7 +459,7 @@ p {
   align-items: center;
   font-size: 18px;
   line-height: 26px;
-  padding: 16px 28px;
+  padding: 10px 22px;
   text-align: center;
   font-weight: 700;
   font-family: var(--heading-font);
@@ -466,7 +468,7 @@ p {
   transition: 0.4s;
   text-transform: capitalize;
   overflow: hidden;
-  border-radius: 50px;
+  border-radius: 5px;
   border: 1px solid var(--primary-color-1);
 }
 .btn-one i,
@@ -1053,16 +1055,16 @@ p {
 * Bantec Color CSS
 ==========================================================================*/
 :root {
-  --body-font: "Space Grotesk", sans-serif;
-  --heading-font: "Space Grotesk", sans-serif;
+  --body-font: "Roboto", sans-serif;
+  --heading-font: "Roboto", sans-serif;  
   --text-white: #FFFFFF;
   --bg-white: #FFFFFF;
   --btn-white: #FFFFFF;
   --border-white: #FFFFFF;
   --black: #000000;
-  --primary-color-1: #0E59F2;
-  --primary-color-2: #F8E559;
-  --primary-color-3: #406AFF;
+  --primary-color-1: #2D9C4E;
+  --primary-color-2: #A8E05A;
+  --primary-color-3: #1C7A3D;
   --bg-heading-color: #051634;
   --text-heading-color: #051634;
   --btn-heading-color: #131313;
@@ -1071,7 +1073,7 @@ p {
   --dark-two: #222429;
   --color-1: #F4F7FB;
   --color-2: #737373;
-  --color-3: #0B46BF;
+  --color-3: #1B5E20;
   --color-4: #CCCCCC;
   --color-5: #12223e;
   --color-6: #864af942;
@@ -3924,7 +3926,8 @@ Responsive Menu Css
     display: none;
   }
   .header__area-menubar-center-menu ul li a {
-    font-size: 17px;
+    font-size: 19px;
+    font-weight: 600;
     padding: 38px 7px;
   }
 }
@@ -4276,7 +4279,7 @@ Responsive Menu Css
 * Banner Three CSS
 ==========================================================================*/
 .banner__three-single-slide {
-  padding: 180px 0;
+  padding: 100px 0;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
