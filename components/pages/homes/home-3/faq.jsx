@@ -5,16 +5,16 @@ const Faq = () => {
     const [activeIndex, setActiveIndex] = useState(1);
     const faqs = [
         {
-            question: "What services do you offer?",
-            answer: "We specialize in a broad range of IT services, including software development, cloud services, cyber security, IT consulting, and tech support. Visit our Services page for detailed information."
+            question: "Comment HAT aide-t-elle les entreprises à intégrer les énergies renouvelables ?",
+            answer: "Chez HAT, nous accompagnons les entreprises à chaque étape de la transition énergétique, de l’étude de faisabilité à la mise en œuvre des solutions solaires photovoltaïques. Nous évaluons vos besoins énergétiques spécifiques et proposons des solutions sur mesure qui permettent de réduire vos coûts énergétiques tout en favorisant un avenir plus durable."
         },
         {
-            question: "How can I request a quote for my project?",
-            answer: "Fill out the contact form on this page, providing as many details as possible about your project. A representative will be in touch within one business day to discuss your needs and provide a tailored quote."
+            question: "Quels sont les avantages de la maintenance proactive des équipements électriques ?",
+            answer: "La maintenance proactive permet de prévenir les pannes et d'optimiser la durée de vie de vos équipements électriques. Chez HAT, nos services de maintenance régulière garantissent que vos installations fonctionnent à leur meilleure capacité, réduisent les risques de dysfonctionnements imprévus et assurent une performance continue, ce qui est essentiel pour maximiser vos investissements."
         },
         {
-            question: "What is your process for client inquiries?",
-            answer: "We prioritize getting back to you quickly. After an inquiry is submitted, it'll be routed to the appropriate team, who will review your information and respond with the next steps or a request for further details."
+            question: "En quoi consiste votre service de gestion des déchets et comment peut-il bénéficier à mon entreprise ?",
+            answer: "Notre service de gestion des déchets vise à optimiser le traitement des déchets industriels et électroniques tout en respectant les normes environnementales strictes. Nous proposons des solutions écologiques et efficaces qui réduisent l'empreinte écologique de votre entreprise, vous aident à respecter les réglementations et peuvent générer des économies grâce au recyclage et à la réduction des déchets."
         },
     ];
     const toggleFaq = (index) => {
@@ -27,9 +27,9 @@ const Faq = () => {
                 <div className="row gy-4 align-items-center">
                     <div className="col-xl-6">
                         <div className="faq__two-title">
-                            <span className="subtitle-one">Ask Question</span>
-                            <h2>Unraveling IT <span className="highlighted-two">Complexities</span> FAQs</h2>
-                            <p>Business consulting services can benefit your company  providing man or objective insights, identifying areas for improv  streamlining processes, developing strategies for grow</p>
+                            <span className="subtitle-one">Posez la question</span>
+                            <h2>Démêler les Complexités de <span className="highlighted-two">l'Énergie</span> et de la Durabilité</h2>
+                            <p>Les services d'énergie renouvelable et de maintenance d’équipements peuvent transformer votre entreprise, optimiser vos processus et favoriser la croissance durable. Découvrez ci-dessous les réponses aux questions les plus fréquemment posées pour mieux comprendre nos services et leur impact sur votre projet.</p>
                         </div>
                         <div className="award">
                             <div className="award-wrapper">

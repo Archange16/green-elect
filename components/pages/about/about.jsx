@@ -39,25 +39,10 @@ const AboutMain = () => {
                         <div className="about__one-content">
                             <span className="subtitle-one">About us</span>
                             <h2>Transform Business to Technology</h2>
-                            <p>IT Technology is a broad category encompassing all aspec information technology and the application of technology in various industries. It includes areas such as software development</p>
-                            <div className="about__one-content-service">
-                                <div className="service">
-                                    <i className="far fa-check-circle"></i>
-                                    <span>Data Management Experts</span>
-                                </div>
-                                <div className="service">
-                                    <i className="far fa-check-circle"></i>
-                                    <span>Mobile App Developments</span>
-                                </div>
-                                <div className="service">
-                                    <i className="far fa-check-circle"></i>
-                                    <span>IT Infrastructure Solutions</span>
-                                </div>
-                                <div className="service">
-                                    <i className="far fa-check-circle"></i>
-                                    <span>Data Analytics Consulting</span>
-                                </div>
-                            </div>
+                            <p>HAT est une entreprise leader dans le déploiement des énergies renouvelables. Grâce à une équipe qualifiée, elle propose des services complets : développement, conception, construction, exploitation et maintenance de centrales photovoltaïques. Avec plusieurs centaines de MWp installés, HAT joue un rôle clé dans la transition énergétique.</p>
+                            <p>En plus de son expertise photovoltaïque, HAT se distingue par ses solutions innovantes en stockage d’énergie et ses services en équipements électriques, gestion des déchets et business développement. Son approche globale et durable garantit des projets de grande envergure réussis.</p>
+                            <p>HAT combine également les TIC et une gestion intelligente des centrales pour assurer une exploitation optimale, une maintenance de qualité et des rendements élevés, en faisant un partenaire fiable pour la pérennité des installations.</p>
+                           
                             <Link href="/about" className="btn-one">Discover More<i className="fas fa-arrow-right"></i></Link>
                         </div>
                     </div>

@@ -9,13 +9,13 @@ const BlogThree = () => {
                     <div className="row gy-4 justify-content-between align-items-end mb-60">
                         <div className="col-xl-5 col-lg-7 col-md-8">
                             <div className="blog__three-title">
-                                <span className="subtitle-one">Blog And news</span>
-                                <h2>Latest Trends in Tech <span className="highlighted-two">Explored</span></h2>
+                                <span className="subtitle-one">Blog et actualités</span>
+                                <h2>Découvrez les actualités et projets <span className="highlighted-two">innovants de HAT</span></h2>
                             </div>
                         </div>
                         <div className="col-xl-3 col-lg-3 text-lg-end mt-lg-0 mt-40">
                             <div className="blog__three-title-btn">
-                                <Link href="/blog" className="btn-one">View All<i className="fas fa-chevron-right"></i></Link>
+                                <Link href="/blog" className="btn-one">Tout afficher<i className="fas fa-chevron-right"></i></Link>
                             </div>
                         </div>
                     </div>

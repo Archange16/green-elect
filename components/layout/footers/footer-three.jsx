@@ -1,5 +1,5 @@
 import Link from "next/link";
-import logo from "../../../public/assets/img/logo-2.png";
+import logo from "../../../public/assets/img/logo-1.png";
 import servicesData from "@/components/data/services-data";
 import Social from "@/components/data/social";
 
@@ -9,7 +9,7 @@ const FooterThree = () => {
         <div className="footer__three">
             <div className="container pt-80 pb-80">
                 <div className="footer__three-top">
-                    <h3>Join Our Social Community!</h3>
+                    <h3>Rejoignez notre communauté sociale !</h3>
                     <div className="footer__three-top-social">
                         <Social />
                     </div>

@@ -9,28 +9,32 @@ const ChooseUsThree = () => {
                 <div className="row align-items-center gy-4">
                     <div className="col-xl-6 col-lg-6 col-md-9">
                         <div className="why-choose-us__two-content">
-                            <span className="subtitle-one">Why CHOSE US</span>
-                            <h2>IT Infrastructure most active <span className="highlighted-two">Solutions</span></h2>
-                            <p>IT Technology is a broad category encompassing all aspec info technology and the application of technology IT Technology</p>
+                            <span className="subtitle-one">Pourquoi Nous Choisir</span>
+                            <h2>Solutions Énergétiques Innovantes et <span className="highlighted-two">Durables</span></h2>
+                            <p>HAT se distingue par son expertise dans la gestion des énergies renouvelables et des technologies associées. Nous offrons des solutions sur mesure pour répondre aux besoins énergétiques spécifiques de chaque client, en combinant innovation, performance et respect de l'environnement.</p>
                             <div className="why-choose-us__two-content-service">
                                 <div className="service">
                                     <i className="fas fa-check-circle"></i>
-                                    <span>Data Management Experts</span>
+                                    <span>Expertise en Énergies Renouvelables</span>
                                 </div>
                                 <div className="service">
                                     <i className="fas fa-check-circle"></i>
-                                    <span>Mobile App Developments</span>
+                                    <span>Maintenance et Gestion des Équipements</span>
                                 </div>
                                 <div className="service">
                                     <i className="fas fa-check-circle"></i>
-                                    <span>IT Infrastructure Solutions</span>
+                                    <span>Consulting en Stratégies Énergétiques</span>
                                 </div>
                                 <div className="service">
                                     <i className="fas fa-check-circle"></i>
-                                    <span>Data Analytics Consulting</span>
+                                    <span>Gestion Intelligente de l’Énergie</span>
+                                </div>
+                                <div className="service">
+                                    <i className="fas fa-check-circle"></i>
+                                    <span>Solutions Durables pour le Traitement des Déchets</span>
                                 </div>
                             </div>
-                            <Link href="/services" className="btn-one">Learn More
+                            <Link href="/services" className="btn-one">En savoir plus
                                 <i className="fas fa-arrow-right"></i>
                             </Link>
                         </div>

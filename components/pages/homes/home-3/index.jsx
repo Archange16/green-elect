@@ -20,9 +20,9 @@ const HomeThree = () => {
             <SEO pageTitle="Cloud Computing" />
             <HeaderThree  />
             <BannerThree />
-            <ServicesThree />
             <TextSlide />
             <AboutThree />
+            <ServicesThree />
             <PortfolioThree />
             <Faq />
             <ChooseUsThree />
