@@ -873,7 +873,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+<<<<<<< HEAD
 var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/swiper","vendor-chunks/@popperjs","vendor-chunks/bootstrap","vendor-chunks/react-countup","vendor-chunks/countup.js","vendor-chunks/@swc"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.jsx&appDir=C%3A%5CUsers%5CORIGINAL%5CDocuments%5CProjet%20Madame%20Hanane%5Cgreen-elect%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5CORIGINAL%5CDocuments%5CProjet%20Madame%20Hanane%5Cgreen-elect&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+=======
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@popperjs","vendor-chunks/swiper","vendor-chunks/@swc","vendor-chunks/react-countup","vendor-chunks/countup.js","vendor-chunks/bootstrap"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.jsx&appDir=C%3A%5CUsers%5CAdMin%5CDesktop%5Csite%5CHanane%5Cgreen-electricj%5Cgreen-electric%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5CAdMin%5CDesktop%5Csite%5CHanane%5Cgreen-electricj%5Cgreen-electric&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+>>>>>>> 0849e93c1131b4191c7861d935bfb9549a66fd18
 module.exports = __webpack_exports__;
 
 })();

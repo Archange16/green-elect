@@ -10,11 +10,14 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
+<<<<<<< HEAD
     ],
     "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/about/page.js"
+=======
+>>>>>>> 0849e93c1131b4191c7861d935bfb9549a66fd18
     ]
   }
 }
