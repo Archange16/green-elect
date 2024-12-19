@@ -7,15 +7,15 @@ const MainMenu = () => {
                 <li className="menu-item-has-children">
                     <Link href="/">Accueil</Link>
                 </li>
-                <li className="menu-item-has-children"><Link href="/about">A propos de Nous </Link>
+                <li className="menu-item-has-children"><Link href="/">A propos de Nous </Link> 
                 </li>
-                <li className="menu-item-has-children"><Link href="/services">Services </Link>
+                <li className="menu-item-has-children"><Link href="/">Services </Link>
                 </li>
-                <li className="menu-item-has-children"><Link href="/portfolio/2-columns">Portfolio </Link>
+                <li className="menu-item-has-children"><Link href="/">Portfolio </Link>
                 </li>
-                <li className="menu-item-has-children"><Link href="/blog">Blog</Link>
+                <li className="menu-item-has-children"><Link href="/">Blog</Link>
                 </li>
-                <li><Link href="/contact">Contactez-Nous</Link></li>
+                <li><Link href="/">Contactez-Nous</Link></li>
             </ul>
         </>
     );
