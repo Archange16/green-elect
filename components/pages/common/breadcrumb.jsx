@@ -18,7 +18,7 @@ const BreadCrumb = ({title, innerTitle}) => {
                     </div>
                     <div className="col-xl-4 col-lg-5">
                         <div className="page__banner-img">
-                            <img src={image.src} alt="image" />
+                            <img className="opacity-0" src={image.src} alt="image" />
                         </div>
                     </div>
                 </div>

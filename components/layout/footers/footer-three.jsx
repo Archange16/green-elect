@@ -19,7 +19,7 @@ const FooterThree = () => {
                         <div className="footer__three-widget">
                             <div className="footer__three-widget-about">
                                 <Link href="/"><img src={logo.src} alt="image" /></Link>
-                                <p>Financial planners help people to gain knowledge about</p>
+                                <p>Chez HAT, nous proposons des solutionsinnovantes et durables</p>
                                 <form action="#">
                                     <input type="text" name="email" placeholder="Your e-mail" required="" />
                                     <button type="submit"><i className="fas fa-paper-plane"></i></button>
@@ -29,14 +29,14 @@ const FooterThree = () => {
                     </div>
                     <div className="col-xl-3 col-md-6 col-sm-5 sm-mb-30">
                         <div className="footer__three-widget border-one">
-                            <h4 className="ml-60">Our Services</h4>
+                            <h4 className="ml-60">Nos Services</h4>
                             <div className="footer__three-widget-solution">
                                 <ul>
 									{servicesData.slice(0, 4).map((data, id) => {
 										const words = data.title.split(' ');
 										const firstAndSecondWord = words.slice(0, 2).join(' ');
 										return (
-											<li key={id}><Link href={`/services/${data.id}`}><i className="far fa-chevron-double-right"></i>{firstAndSecondWord}</Link></li>
+											<li key={id}><Link href={`/services/${data.id}`}><i className="fa-solid fa-check-square"></i>{firstAndSecondWord}</Link></li>
 										);
 									})}
                                 </ul>
@@ -48,10 +48,10 @@ const FooterThree = () => {
                             <h4 className="ml-60">Resources​</h4>
                             <div className="footer__three-widget-solution">
                                 <ul>
-									<li><Link href="services"><i className="far fa-chevron-double-right"></i>Service</Link></li>
-									<li><Link href="faq"><i className="far fa-chevron-double-right"></i>FAQ</Link></li>
-									<li><Link href="testimonial"><i className="far fa-chevron-double-right"></i>Testimonial</Link></li>
-									<li><Link href="about"><i className="far fa-chevron-double-right"></i>About Us</Link></li>
+									<li><Link href="services"><i className="fa-solid fa-check-square"></i>Service</Link></li>
+									<li><Link href="faq"><i className=" fa-solid fa-check-square"></i>FAQ</Link></li>
+									<li><Link href="testimonial"><i className="fa-solid fa-check-square"></i>Testimonial</Link></li>
+									<li><Link href="about"><i className="fa-solid fa-check-square"></i>About Us</Link></li>
                                 </ul>
                             </div>
                         </div>

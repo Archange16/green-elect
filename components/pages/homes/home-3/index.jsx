@@ -17,7 +17,7 @@ import BlogThree from "./blog";
 const HomeThree = () => {
     return (
         <>
-            <SEO pageTitle="Cloud Computing" />
+            <SEO pageTitle="energie renouvable" />
             <HeaderThree  />
             <BannerThree />
             <TextSlide />
