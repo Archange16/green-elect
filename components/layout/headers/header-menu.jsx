@@ -1,21 +1,24 @@
+import { useI18n } from '@/locales/client';
 import Link from 'next/link';
 
 const MainMenu = () => {
+
+    const t = useI18n();
     return (
         <>
             <ul>
                 <li className="menu-item-has-children">
-                    <Link href="/">Accueil</Link>
+                    <Link href="/">{t("Header.menu.accueil")}</Link>
                 </li>
-                <li className="menu-item-has-children"><Link href="/">A propos de Nous </Link> 
+                <li className="menu-item-has-children"><Link href="/">{t("Header.menu.a_propos_de_nous")} </Link> 
                 </li>
-                <li className="menu-item-has-children"><Link href="/">Services </Link>
+                <li className="menu-item-has-children"><Link href="/">{t("Header.menu.services")} </Link>
                 </li>
-                <li className="menu-item-has-children"><Link href="/">Portfolio </Link>
+                <li className="menu-item-has-children"><Link href="/">{t("Header.menu.portfolio")} </Link>
                 </li>
-                <li className="menu-item-has-children"><Link href="/">Blog</Link>
+                <li className="menu-item-has-children"><Link href="/">{t("Header.menu.blog")}</Link>
                 </li>
-                <li><Link href="/">Contactez-Nous</Link></li>
+                <li><Link href="/">{t("Header.menu.contactez_nous")}</Link></li>
             </ul>
         </>
     );

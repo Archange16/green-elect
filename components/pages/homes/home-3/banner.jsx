@@ -5,8 +5,10 @@ import banner1 from "../../../../public/assets/img/banner/banner-three.png";
 import banner2 from "../../../../public/assets/img/banner/banner-three-2.png";
 import banner3 from "../../../../public/assets/img/banner/banner-three2.png"
 import shape from "../../../../public/assets/img/banner/banner-three-shape-overlay.png";
+import { useI18n } from '@/locales/client';
 
 const BannerThree = () => {
+     const t = useI18n();
   	return (
 		<>
         <div className="banner__three">
@@ -27,10 +29,10 @@ const BannerThree = () => {
                             <div className="row justify-content-center">
                                 <div className="col-xl-10">
                                     <div className="banner__three-content">
-                                        <span className="subtitle-one">Engagement</span>
-                                        <h2>Engagement pour des Pratiques  <span className="text-bordered">Dura</span>bles</h2>
-                                        <p>La protection de l'environnement est au cœur de notre démarche. Nos produits sont conçus pour limiter leur impact écologique et respectent les normes internationales de qualité et de sécurité.</p>
-                                        <Link href="/about" className="btn-two">En savoir plus<i className="fas fa-arrow-right"></i></Link>
+                                        <span className="subtitle-one">{t("Header.SwiperSlide.engagement")}</span>
+                                        <h2>{t("Header.SwiperSlide.engagement_pratiques")}  <span className="text-bordered">{t("Header.SwiperSlide.dura")}</span>{t("Header.SwiperSlide.bles")}</h2>
+                                        <p>{t("Header.SwiperSlide.protection_environnement")}</p>
+                                        <Link href="/about" className="btn-two">{t("Header.SwiperSlide.en_savoir_plus")}<i className="fas fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

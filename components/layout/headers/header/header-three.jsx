@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import logo1 from "../../../../public/assets/img/logo-1.png";
 import logo2 from "../../../../public/assets/img/logo-2.png";
 import MobileMenuPopup from '../mobile-menu/menu-area';
+import { useI18n } from '@/locales/client';
 
 const HeaderThree = ({variant}) => {
     const [menuSidebar, setMenuSidebar] = useState(false);
@@ -18,6 +19,8 @@ const HeaderThree = ({variant}) => {
         }
         });
     }, []);
+
+    const t = useI18n()
     return (
         <>
         <div className="top__bar">
@@ -31,7 +34,7 @@ const HeaderThree = ({variant}) => {
                     </div>
                     <div className="col-xl-5 col-md-5">
                         <div className="top__bar-right">
-                            <Link href="https://www.google.com/maps"><i className="fas fa-map-marker-alt"></i>6391 Elgin St. Celina, 10299</Link>
+                            <Link href="https://www.google.com/maps"><i className="fas fa-map-marker-alt"></i>{t("Header.adresse")}</Link>
                         </div>
                     </div>
                 </div>
@@ -53,7 +56,7 @@ const HeaderThree = ({variant}) => {
                     <div className="header__area-menubar-right">
                         <div className="header__area-menubar-right-box">
                             <div className="header__area-menubar-right-box-btn">
-                                <Link className="btn-one" href="/request-quote">Obtenir un devis<i className="fas fa-arrow-right"></i></Link>
+                                <Link className="btn-one" href="/request-quote">{t("Header.bouton")}<i className="fas fa-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="header__area-menubar-right-responsive-menu menu__bar">
