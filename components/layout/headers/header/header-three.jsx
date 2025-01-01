@@ -6,6 +6,7 @@ import logo1 from "../../../../public/assets/img/logo-1.png";
 import logo2 from "../../../../public/assets/img/logo-2.png";
 import MobileMenuPopup from '../mobile-menu/menu-area';
 import { useI18n } from '@/locales/client';
+import { LocaleSelect } from '@/app/[locale]/LocaleSelect';
 
 const HeaderThree = ({variant}) => {
     const [menuSidebar, setMenuSidebar] = useState(false);
@@ -34,7 +35,8 @@ const HeaderThree = ({variant}) => {
                     </div>
                     <div className="col-xl-5 col-md-5">
                         <div className="top__bar-right">
-                            <Link href="https://www.google.com/maps"><i className="fas fa-map-marker-alt"></i>{t("Header.adresse")}</Link>
+                        <LocaleSelect/>
+                            <Link href="https://www.google.com/maps"><i className="fas fa-map-marker-alt ml-20"></i>{t("Header.adresse")}</Link>
                         </div>
                     </div>
                 </div>
