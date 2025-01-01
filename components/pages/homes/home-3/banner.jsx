@@ -46,10 +46,10 @@ const BannerThree = () => {
                             <div className="row justify-content-center">
                                 <div className="col-xl-10">
                                     <div className="banner__three-content">
-                                        <span className="subtitle-one">Maintenance Industrielle</span>
-                                        <h2>L'Excellence en Maintenance Industrielle</h2>
-                                        <p>Une maintenance proactive garantit la performance continue de nos installations. Nous minimisons les interruptions et optimisons l'efficacité de nos équipements.</p>
-                                        <Link href="/about" className="btn-two">En savoir plus<i className="fas fa-arrow-right"></i></Link>
+                                        <span className="subtitle-one">{t("Header.SwiperSlide1.title")}</span>
+                                        <h2>{t("Header.SwiperSlide1.subtitle")} </h2>
+                                        <p>{t("Header.SwiperSlide1.description")}</p>
+                                        <Link href="/about" className="btn-two">{t("Header.SwiperSlide1.en_savoir_plus")}<i className="fas fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -63,10 +63,10 @@ const BannerThree = () => {
                             <div className="row justify-content-center">
                                 <div className="col-xl-10">
                                     <div className="banner__three-content">
-                                        <span className="subtitle-one">Énergies Renouvelables</span>
-                                        <h2>Énergies Renouvelables : vers un Avenir Durable</h2>
-                                        <p>Les énergies renouvelables offrent des solutions respectueuses de l'environnement. Nous soutenons activement la transition énergétique durable.</p>
-                                        <Link href="/about" className="btn-two">En savoir plus<i className="fas fa-arrow-right"></i></Link>
+                                        <span className="subtitle-one">{t("Header.SwiperSlide2.title")}</span>
+                                        <h2>{t("Header.SwiperSlide2.subtitle")}</h2>
+                                        <p>{t("Header.SwiperSlide2.description")}</p>
+                                        <Link href="/about" className="btn-two">{t("Header.SwiperSlide2.en_savoir_plus")}<i className="fas fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
