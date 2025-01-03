@@ -41,6 +41,44 @@ export default {
         engagement_durable_title: "可持续承诺",
         engagement_durable: "兼顾性能和可持续性的环保解决方案。",
         annees_experience: "多年经验"
-    }
+    },
+    nosservices: {
+      nos_services: "我们的服务",
+      decouvrez_comment: "发现如何",
+      nos_services_optimisent: "我们的服务优化您的操作",
+      et_lenvironnement: "和环境",
+      en_savoir_plus: "了解更多"
+    },
+    electricalequipement: {
+      id: '电气设备',
+      title: '电气设备',
+      des: '安装和升级可靠、高性能的电气设备。',
+    },
+    energiemanament: {
+        id: '能源管理',
+        title: '能源管理',
+        des: '智能解决方案和集成系统，以最大化效率并降低成本。',
+    },
+    renewableenergy: {
+        id: '可再生能源',
+        title: '可再生能源',
+        des: '可持续解决方案，包括安装太阳能电池板和风力发电机。',
+    },
+    businessdevelopment: {
+        id: '业务发展',
+        title: '业务发展',
+        des: '战略支持，确保您未来项目的成功。',
+    },
+    operationmaintenance: {
+        id: '运营与维护',
+        title: '运营与维护',
+        des: '全面维护和持续管理，以确保设备的最佳性能。',
+    },
+    energystorage: {
+        id: '能源存储',
+        title: '能源存储',
+        des: '先进的能源存储系统，以优化可持续使用。',
+    },
+
   }
 } as const;

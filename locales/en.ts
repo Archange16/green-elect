@@ -41,6 +41,44 @@ export default {
       engagement_durable_title: "Sustainable Commitment",
       engagement_durable: "Environmentally friendly solutions combining performance and sustainability.",
       annees_experience: "Years of Experience"
-    }
+    },
+    nosservices: {
+      nos_services: "Our Services",
+      decouvrez_comment: "Discover how",
+      nos_services_optimisent: "our services optimize your operations",
+      et_lenvironnement: "and the environment",
+      en_savoir_plus: "Learn more"
+  },
+  electricalequipement:{
+      id: 'Electrical Equipment',
+      title: 'Electrical Equipment',
+      des: 'Installation and upgrading of reliable, high-performance electrical equipment.',
+  },
+  energiemanament:{
+      id: 'Energy Management',
+      title: 'Energy Management',
+      des: 'Smart solutions and integrated systems to maximize efficiency and reduce costs.',
+  },
+  renewableenergy:{
+      id: 'Renewable Energy',
+      title: 'Renewable Energy',
+      des: 'Sustainable solutions including the installation of solar panels and wind turbines.',
+  },
+  businessdevelopment:{
+      id: 'Business Development',
+      title: 'Business Development',
+      des: 'Strategic support to ensure the success of your future projects.',
+  },
+  operationmaintenance:{
+      id: 'Operation & Maintenance',
+      title: 'Operation & Maintenance',
+      des: 'Complete maintenance and ongoing management for optimal performance of your equipment.',
+  },
+  energystorage:{
+      id: 'Energy Storage',
+      title: 'Energy Storage',
+      des: 'Advanced energy storage systems to optimize sustainable use.',
+  }
+    
   }
 } as const;

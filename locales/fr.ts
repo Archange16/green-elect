@@ -41,6 +41,45 @@ export default {
       engagement_durable_title:"Engagement Durable",
       engagement_durable: "Des solutions respectueuses de l'environnement, alliant performance et durabilité.",
       annees_experience: "Années d'expérience"
-    }
+    },
+    nosservices: {
+      nos_services: "Nos Services",
+      decouvrez_comment: "Découvrez comment",
+      nos_services_optimisent: "nos services optimisent vos opérations",
+      et_lenvironnement: "et l'environnement",
+      en_savoir_plus: "En savoir plus"
+    },
+    electricalequipement: {
+      id: 'Équipements Électriques',
+      icon: 'fa-solid fa-bolt',
+      title: 'Équipements Électriques',
+      des: 'Installation et mise à niveau d’équipements électriques fiables et performants.',
+    },
+    energiemanament: {
+        id: 'Gestion de l\'Énergie',
+        title: 'Gestion de l\'Énergie',
+        des: 'Solutions intelligentes et systèmes intégrés pour maximiser l\'efficacité et réduire les coûts.',
+    },
+    renewableenergy: {
+        id: 'Énergies Renouvelables',
+        title: 'Énergies Renouvelables',
+        des: 'Solutions durables incluant l\'installation de panneaux solaires et d\'éoliennes.',
+    },
+    businessdevelopment: {
+        id: 'Développement des Affaires',
+        title: 'Développement des Affaires',
+        des: 'Accompagnement stratégique pour garantir la réussite de vos projets futurs.',
+    },
+    operationmaintenance: {
+        id: 'Opération & Maintenance',
+        title: 'Opération & Maintenance',
+        des: 'Maintenance complète et gestion continue pour une performance optimale de vos équipements.',
+    },
+    energystorage: {
+        id: 'Stockage d\'Énergie',
+        title: 'Stockage d\'Énergie',
+        des: 'Systèmes avancés de stockage d\'énergie pour optimiser l\'utilisation durable.',
+    },
+
   }
 } as const;

@@ -1,9 +1,9 @@
 const servicesData = [
     {
-        id: 'Équipements Électriques ',
+        id: "",
         icon: <i className="fa-solid fa-bolt"></i>,
-        title: 'Équipements Électriques',
-        des: 'Installation et mise à niveau d’équipements électriques performants et fiables.',
+        title: "",
+        des: "",
     },
     {
         id: "Gestion de l'Énergie",

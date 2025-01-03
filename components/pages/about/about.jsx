@@ -19,19 +19,9 @@ const AboutMain = () => {
                 <div className="row align-items-center flex-wrap-reverse gy-4">
                     <div className="col-xl-6 col-lg-5">
                         <div className="about__one-image">
-                            <div className="experience-bar animate-y-axis-slider">
-                                <i className="flaticon-consultant"></i>
-                                <div className="experience-bar-right">
-                                    <div className="experience-bar-counter">
-                                        <h4 className="counter"><Count number={25}/></h4>
-                                        <span>+</span>
-                                    </div>
-                                    <span>Years Experience</span>
-                                </div>
-                            </div>
                             <div className="about__one-image-wrapper">
                                 <img src={about1.src} alt="image" className="image-1" />
-                                <img src={about2.src} alt="image" className="image-2" />
+                                {/* <img src={about2.src} alt="image" className="image-2" /> */}
                             </div>
                         </div>
                     </div>

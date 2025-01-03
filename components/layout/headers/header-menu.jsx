@@ -10,7 +10,7 @@ const MainMenu = () => {
                 <li className="menu-item-has-children">
                     <Link href="/">{t("Header.menu.accueil")}</Link>
                 </li>
-                <li className="menu-item-has-children"><Link href="/">{t("Header.menu.a_propos_de_nous")} </Link> 
+                <li className="menu-item-has-children"><Link href="/about">{t("Header.menu.a_propos_de_nous")} </Link> 
                 </li>
                 <li className="menu-item-has-children"><Link href="/">{t("Header.menu.services")} </Link>
                 </li>
